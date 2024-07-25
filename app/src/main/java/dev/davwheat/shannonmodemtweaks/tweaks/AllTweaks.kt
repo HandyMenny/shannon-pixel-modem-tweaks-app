@@ -66,7 +66,8 @@ val AllTweaks: Map<String, List<Tweak>> =
             listOf(
                 NrRoaming(),
                 NrMmwave(),
-                Segmentation()
+                Segmentation(),
+                DisableCapabilitiesFilters()
             ).sortedBy { it.name }
         )
     )
